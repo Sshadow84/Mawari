@@ -35,19 +35,23 @@
 1. Установите MetaMask и создайте **новый (burner) кошелёк** для тестнета.
 2. Откройте **https://testnet.mawari.net/mint** и **подключите кошелёк**. Если MetaMask предложит **добавить сеть** — подтвердите.
    <img width="1047" height="797" alt="malwari2" src="https://github.com/user-attachments/assets/be6f9735-25d6-4196-bc9b-eb636eb25869" />
-4. Если автодобавление не появилось, добавьте сеть **вручную**:
+3. Если автодобавление не появилось, добавьте сеть вручную:
 
-   **Mawari Network Testnet (рекомендуемая конфигурация)**
-   - **Network name:** Mawari Network Testnet  
-   - **Chain ID:** `576`  
-   - **RPC URL:** `https://rpc.testnet.mawari.net/http`  
-   - **Currency symbol:** `MAWARI`  
-   - **Block explorer URL (optional):** `https://explorer.testnet.mawari.net`
+> [!NOTE]
+> **Mawari Network Testnet**
+>
+> **Chain ID:** `576`  
+> **Network name:** Mawari Network Testnet  
+> **RPC URL:** https://rpc.testnet.mawari.net/http  
+> **Currency symbol:** `MAWARI`  
+> **Block explorer URL (optional):** https://explorer.testnet.mawari.net
 
-   > Примечание: портал иногда предлагает альтернативные параметры (например, **Chain ID `629274`**, RPC `https://mawari-network-testnet.rpc.caldera.xyz/http`).  
-   > Если увидите такое предложение — **подтвердите то, что предлагает портал**.
+> [!TIP]
+> Портал иногда предлагает **альтернативные параметры**  
+> (например, **Chain ID `629274`**, RPC `https://mawari-network-testnet.rpc.caldera.xyz/http`).  
+> Просто **подтвердите то, что предлагает портал**.
 
-5. На странице mint нажмите **Faucet Claim** — вы перейдёте на **https://hub.testnet.mawari.net/**.  
+4. На странице mint нажмите **Faucet Claim** — вы перейдёте на **https://hub.testnet.mawari.net/**.  
    Вставьте адрес нового кошелька и **запросите тестовые токены**.
 
 6. Вернитесь на **https://testnet.mawari.net/mint** и нажмите **Mint** — можно заминтить **до 3 NFT** (если доступно).

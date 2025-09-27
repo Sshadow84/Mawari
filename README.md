@@ -254,21 +254,3 @@ mkdir -p mawari
 docker compose up -d
 ```
 
----
-
-## Как добавлять изображения в README (GitHub)
-
-1. **Хранить файлы в репозитории:** положите картинки в `assets/` и вставляйте так:
-   ```md
-   ![Скриншот запуска](assets/run.png)
-   ```
-   или c HTML (для ширины):
-   ```html
-   <img src="assets/run.png" alt="Скриншот запуска" width="100%">
-   ```
-
-2. **Drag-and-drop в редактор GitHub:** перетащите файл — GitHub загрузит его в CDN и подставит ссылку `https://user-images.githubusercontent.com/...`.
-
-3. **Внешний хостинг (не обязателен):** Imgur/Cloudinary и т.п., но лучше держать ассеты в репозитории.
-
----

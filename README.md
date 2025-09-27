@@ -100,30 +100,45 @@ newgrp docker
 export MNTESTNET_IMAGE=us-east4-docker.pkg.dev/mawarinetwork-dev/mwr-net-d-car-uses4-public-docker-registry-e62e/mawari-node:latest
 export OWNER_ADDRESS=0xВАШ_АДРЕС_ИЗ_FAUCET_OR_MINT
 ```
+![mu](https://github.com/user-attachments/assets/9f349d01-f100-4785-974c-c9fafc3b148c)
 
 ### 2.5 Запуск ноды (Docker)
 ```bash
 mkdir -p ~/mawari
 docker run -d --pull always --restart unless-stopped   -v ~/mawari:/app/cache   -e OWNERS_ALLOWLIST=$OWNER_ADDRESS   $MNTESTNET_IMAGE
 ```
+![lo1](https://github.com/user-attachments/assets/9bcc121c-73bc-496b-923a-1cde4a755f9a)
+
 
 ### 2.6 Проверка логов и burner-адрес
 ```bash
 docker ps -a
+
+![lo1](https://github.com/user-attachments/assets/f9773cf1-2821-45e6-a2bf-d90d9ae42781)
+
+
 docker logs -f <CONTAINER_ID>
 ```
 - В логах появится **Burner Wallet Address** — скопируйте его.  
 - Отправьте часть testnet-токенов на **burner-адрес** (для комиссий и делегирования).  
 - Сообщение `no delegations, skipping heartbeat` — **нормально** до делегирования.
 
+![lo](https://github.com/user-attachments/assets/fe617f40-e683-46c1-86d8-2c89520e9083)
+
 ### 2.7 Делегирование лицензий (активация)
 Зайдите на страницу лицензий и делегируйте на burner-адрес:  
 `https://app.testnet.mawari.net/licenses` → выберите доступные (до 3) → **Delegate** → вставьте burner-адрес → подтвердите в кошельке. Статус станет **Active**.
+
+<img width="1350" height="721" alt="malwari9" src="https://github.com/user-attachments/assets/3898d65a-8c84-43ba-8d1e-35af83c87070" />
+
 
 ### 2.8 Бэкап приватного ключа burner-кошелька
 ```bash
 cat ~/mawari/flohive-cache.json
 ```
+![loй](https://github.com/user-attachments/assets/8817c73d-1e49-41a8-b817-671f35fc57e9)
+
+
 Сохраните файл/ключ в безопасном месте.
 
 ### 2.9 Полезные команды

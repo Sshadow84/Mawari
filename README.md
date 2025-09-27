@@ -114,7 +114,8 @@ docker run -d --pull always --restart unless-stopped   -v ~/mawari:/app/cache   
 ```bash
 docker ps -a
 
-![lo1](https://github.com/user-attachments/assets/f9773cf1-2821-45e6-a2bf-d90d9ae42781)
+![lo](https://github.com/user-attachments/assets/193bf647-81bc-40b3-a4e4-2b1a789d4ab7)
+
 
 
 docker logs -f <CONTAINER_ID>

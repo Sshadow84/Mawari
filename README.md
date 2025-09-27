@@ -111,15 +111,14 @@ docker run -d --pull always --restart unless-stopped   -v ~/mawari:/app/cache   
 
 
 ### 2.6 Проверка логов и burner-адрес
+
 ```bash
 docker ps -a
-
-![lo10](https://github.com/user-attachments/assets/ef223d0c-a68d-4eb9-abac-bc6a3f83c41e)
-
-
-
+<img src="https://github.com/user-attachments/assets/ef223d0c-a68d-4eb9-abac-bc6a3f83c41e" alt="docker ps output" width="100%">
+bash
+Копировать код
 docker logs -f <CONTAINER_ID>
-```
+
 - В логах появится **Burner Wallet Address** — скопируйте его.  
 - Отправьте часть testnet-токенов на **burner-адрес** (для комиссий и делегирования).  
 - Сообщение `no delegations, skipping heartbeat` — **нормально** до делегирования.

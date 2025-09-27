@@ -29,24 +29,35 @@
 
 ---
 
-## RU — Быстрый старт установки ноды на Ubuntu 22.04/24.04
+## 2. Подготовка к установке ноды
+### 2.1 Создаём новый кошелёк и получаем на него NFT
 
-> ⚠️ **Тестовая сеть**. Используйте **новый (burner) кошелёк**, а не основной. Тестовые токены не имеют реальной стоимости.
+1. Установите MetaMask и создайте **новый (burner) кошелёк** для тестнета.
+2. Откройте **https://testnet.mawari.net/mint** и **подключите кошелёк**. Если MetaMask предложит **добавить сеть** — подтвердите.
 
-### 0) Кошелёк и тестовая сеть
-1. Установите и создайте новый кошелёк (MetaMask).  
-2. Откройте `https://testnet.mawari.net/mint` — кошелёк предложит **автоматически добавить сеть**.  
-3. Если потребуется **добавить вручную**, в разное время встречались два набора параметров (ориентируйтесь на предложения портала):
-   - **Вариант A (Caldera Portal):**  
-     - Chain ID: `629274`  
-     - RPC (HTTP): `https://mawari-network-testnet.rpc.caldera.xyz/http`  
-     - Explorer: `https://mawari-network-testnet.explorer.caldera.xyz/`
-   - **Вариант B (Hub/Testnet):**  
-     - Chain ID: `576`  
-     - RPC (HTTP): `https://rpc.testnet.mawari.net/http`  
-     - Explorer: `https://explorer.testnet.mawari.net`
-4. Получите тестовые токены на хабе: `https://hub.testnet.mawari.net/`.  
-5. (Опционально) На `https://testnet.mawari.net/mint` можно **заминтить до 3 NFT** (если доступно).
+3. Если автодобавление не появилось, добавьте сеть **вручную**:
+
+   **Mawari Network Testnet (рекомендуемая конфигурация)**
+   - **Network name:** Mawari Network Testnet  
+   - **Chain ID:** `576`  
+   - **RPC URL:** `https://rpc.testnet.mawari.net/http`  
+   - **Currency symbol:** `MAWARI`  
+   - **Block explorer URL (optional):** `https://explorer.testnet.mawari.net`
+
+   > Примечание: портал иногда предлагает альтернативные параметры (например, **Chain ID `629274`**, RPC `https://mawari-network-testnet.rpc.caldera.xyz/http`).  
+   > Если увидите такое предложение — **подтвердите то, что предлагает портал**.
+
+4. На странице mint нажмите **Faucet Claim** — вы перейдёте на **https://hub.testnet.mawari.net/**.  
+   Вставьте адрес нового кошелька и **запросите тестовые токены**.
+
+5. Вернитесь на **https://testnet.mawari.net/mint** и нажмите **Mint** — можно заминтить **до 3 NFT** (если доступно).
+
+<!-- Места под скриншоты (замените пути на свои файлы) -->
+<!-- ![Подключение кошелька](assets/connect_wallet.png) -->
+<!-- ![Добавление сети](assets/add_network.png) -->
+<!-- ![Фаусет](assets/faucet_claim.png) -->
+<!-- ![Минт NFT](assets/mint_nft.png) -->
+
 
 ### 1) Минимальные требования
 | Ресурс | Минимум |

@@ -18,6 +18,8 @@
 **Доп. сведения**
 - Funding (community): ~$17.8M total (включая ~$0.5M через node sale): https://cryptorank.io/ru/ico/mawari
 - Tokenomics: 4% на community rewards: https://docs.mawari.net/mawari-economy/allocations
+  
+![loй](https://github.com/user-attachments/assets/57a81b17-e95c-4daf-9312-d6b623ec23aa)
 
 ---
 

@@ -1,6 +1,7 @@
 # Mawari
 
-<img src="assets/mawari22.jpg" alt="Mawari Seed+ $10.8M" width="100%">
+
+![mawari22](https://github.com/user-attachments/assets/879e295f-3800-4199-ba76-2273a547b630)
 
 | X | Minimum |
 |---|---|
